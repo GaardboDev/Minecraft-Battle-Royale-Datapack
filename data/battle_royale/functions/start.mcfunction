@@ -14,3 +14,10 @@ effect give @a[tag=Alive] minecraft:resistance 30 5 true
 effect give @a[tag=Alive] minecraft:regeneration 30 5 true
 spreadplayers 0 0 100 495 false @a[tag=Alive]
 title @a[tag=Alive] title {"text":"FIGHT!","color":"red","bold":true}
+
+#Setting Match Worldborder
+worldborder set 10 1500
+
+#Schedule Finale and Force_End
+schedule function battle_royale:finale 1500s append
+schedule function battle_royale:force_end 1800s append
