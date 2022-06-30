@@ -17,6 +17,7 @@ title @a[tag=Alive] title {"text":"FIGHT!","color":"red","bold":true}
 
 #Setting Match Worldborder
 worldborder set 10 1500
+function battle_royale:killstreak
 
 #Schedule Finale and Force_End
 schedule function battle_royale:finale 1500s append
