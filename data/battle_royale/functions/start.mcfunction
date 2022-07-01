@@ -14,6 +14,7 @@ effect give @a[tag=Alive] minecraft:resistance 30 5 true
 effect give @a[tag=Alive] minecraft:regeneration 30 5 true
 spreadplayers 0 0 100 495 false @a[tag=Alive]
 title @a[tag=Alive] title {"text":"FIGHT!","color":"red","bold":true}
+execute at @a[tag=Alive] run playsound event.raid.horn master @a[tag=Alive] ~ ~ ~ 10 1 1
 
 #Setting Match Worldborder
 worldborder set 10 1500
