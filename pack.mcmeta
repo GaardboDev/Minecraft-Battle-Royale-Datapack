@@ -1,6 +1,6 @@
 {
 	"pack": {
-	 "pack_format": 10,
+	 "pack_format": 48,
 	 "description": [{"text":"Battle Royale","color":"aqua","bold":true},{"text":"\nBy GaardboDev","color":"yellow","bold": false}]
 	}
 }
