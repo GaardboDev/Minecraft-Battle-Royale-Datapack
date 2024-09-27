@@ -22,4 +22,16 @@ function battle_royale:killstreak
 
 #Schedule Finale and Force_End
 schedule function battle_royale:finale 1500s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 5 minutes!"}] 1500s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 4 minutes!"}] 1560s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 3 minutes!"}] 1620s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 2 minutes!"}] 1680s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 1 minutes!"}] 1740s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 30 seconds!"}] 1770s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 10 seconds!"}] 1790s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 5 seconds!"}] 1795s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 4 seconds!"}] 1796s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 3 seconds!"}] 1797s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 2 seconds!"}] 1798s append
+schedule tellraw @a [{"color":"gold","text":"[Server] "},{"color":"red","text":"Game ends in 1 seconds!"}] 1799s append
 schedule function battle_royale:force_end 1800s append
